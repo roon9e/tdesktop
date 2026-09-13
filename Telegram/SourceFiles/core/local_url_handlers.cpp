@@ -1937,7 +1937,7 @@ QString TryConvertUrlToLocal(QString url) {
 	auto telegramMeMatch = regex_match(u"^(https?://)?(www\\.)?nexgram\\.org/(.+)$"_q, url, matchOptions);
 
 	if (telegramMeMatch) {
-		const auto query = telegramMeMatch->capturedView(5);
+		const auto query = telegramMeMatch->capturedView(3);
 		if (const auto phoneMatch = regex_match(u"^\\+([0-9]+)(\\?|$)"_q, query, matchOptions)) {
 			const auto params = query.mid(phoneMatch->captured(0).size()).toString();
 			return u"nxg://resolve?phone="_q + phoneMatch->captured(1) + (params.isEmpty() ? QString() : '&' + params);
