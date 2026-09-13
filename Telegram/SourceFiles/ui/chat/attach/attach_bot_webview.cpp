@@ -2796,7 +2796,7 @@ void Panel::openTgLink(const QJsonObject &args) {
 		_delegate->botClose();
 		return;
 	}
-	_delegate->botHandleLocalUri("https://t.me" + path, true);
+	_delegate->botHandleLocalUri("https://teleram.ru" + path, true);
 }
 
 void Panel::openExternalLink(const QJsonObject &args) {

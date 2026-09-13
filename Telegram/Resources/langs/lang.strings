@@ -3305,8 +3305,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_premium_double_limits_about_pins#other" = "Pin up to {count} chats in your main chat list";
 
 "lng_premium_double_limits_subtitle_links" = "Public Links";
-"lng_premium_double_limits_about_links#one" = "Reserve up to {count} t.me/username link";
-"lng_premium_double_limits_about_links#other" = "Reserve up to {count} t.me/username links";
+"lng_premium_double_limits_about_links#one" = "Reserve up to {count} teleram.ru/username link";
+"lng_premium_double_limits_about_links#other" = "Reserve up to {count} teleram.ru/username links";
 
 "lng_premium_double_limits_subtitle_gifs" = "Saved GIFs";
 "lng_premium_double_limits_about_gifs#one" = "Save up to {count} GIF in your Favorite GIFs";
@@ -4684,7 +4684,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_about_text" = "Groups can have:";
 "lng_group_about1" = "Up to 200,000 members";
 "lng_group_about2" = "Persistent chat history";
-"lng_group_about3" = "Public links such as t.me/title";
+"lng_group_about3" = "Public links such as teleram.ru/title";
 "lng_group_about4" = "Admins with different rights";
 
 "lng_switch_stickers" = "Stickers";
@@ -5458,7 +5458,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_factcheck_edit_done" = "Fact check edited.";
 "lng_factcheck_remove_done" = "Fact check removed.";
 "lng_factcheck_bottom" = "This clarification was provided by a fact checking agency assigned by the department of the government of your country ({country}) responsible for combatting misinformation.";
-"lng_factcheck_links" = "Only **t.me/** links are allowed.";
+"lng_factcheck_links" = "Only **teleram.ru/** links are allowed.";
 
 "lng_paid_title" = "Paid Content";
 "lng_paid_enter_cost" = "Enter Unlock Cost";
@@ -5537,7 +5537,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_translate_cocoon_everyone_text" = "Any developer can use Cocoon for AI features. Learn more at {domain}.";
 "lng_translate_cocoon_everyone_domain" = "cocoon.org";
 "lng_translate_cocoon_text" = "Want to integrate Cocoon into your projects?\nReach out at {link}";
-"lng_translate_cocoon_text_link" = "t.me/cocoon?direct";
+"lng_translate_cocoon_text_link" = "teleram.ru/cocoon?direct";
 "lng_translate_cocoon_done" = "Understood";
 
 "lng_downloads_section" = "Downloads";
@@ -7818,7 +7818,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sponsored_revenued_footer_search_description" = "Anyone can create an ad to display in search results for any query. Check out the **Telegram Ad Platform** for details. {link}";
 "lng_sponsored_top_bar_hide" = "remove";
 
-"lng_telegram_features_url" = "https://t.me/TelegramTips";
+"lng_telegram_features_url" = "https://teleram.ru/TelegramTips";
 
 "lng_mini_apps_disclaimer_title" = "Warning";
 "lng_mini_apps_disclaimer_text" = "You are about to use a mini app operated by an independent party **not affiliated with Telegram**. You must agree to the Terms of Use for mini apps to continue.";

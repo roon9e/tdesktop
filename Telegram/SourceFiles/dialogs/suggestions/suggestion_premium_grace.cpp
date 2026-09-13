@@ -38,7 +38,7 @@ void Activate(ActivateArgs args) {
 	content->setClickedCallback([=] {
 		const auto controller = findController();
 		UrlClickHandler::Open(
-			u"https://t.me/premiumbot?start=status"_q,
+			u"https://teleram.ru/premiumbot?start=status"_q,
 			QVariant::fromValue(ClickHandlerContext{
 				.sessionWindow = base::make_weak(controller),
 			}));

@@ -149,7 +149,7 @@ void AddOption(
 		registerHighlight(u"experimental/"_q + option.id(), button);
 	}
 
-	const auto link = u"tg://settings/experimental/"_q + option.id();
+	const auto link = u"owpg://settings/experimental/"_q + option.id();
 	const auto menu
 		= button->lifetime().make_state<base::unique_qptr<Ui::PopupMenu>>();
 	button->events(

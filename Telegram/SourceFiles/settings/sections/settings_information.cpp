@@ -639,7 +639,7 @@ void SetupRows(
 		tr::lng_settings_username_label(),
 		std::move(empty)
 	) | rpl::map([](const QString &label, bool empty) {
-		return empty ? "t.me/username" : label;
+		return empty ? "teleram.ru/username" : label;
 	});
 	auto usernameValue = rpl::combine(
 		std::move(username),
@@ -1230,7 +1230,7 @@ void BuildInformationSection(SectionBuilder &builder) {
 		return SearchEntry{
 			.id = u"edit/username"_q,
 			.title = tr::lng_settings_username_label(tr::now),
-			.keywords = { u"username"_q, u"link"_q, u"t.me"_q },
+			.keywords = { u"username"_q, u"link"_q, u"teleram.ru"_q },
 		};
 	});
 	builder.add(nullptr, [] {

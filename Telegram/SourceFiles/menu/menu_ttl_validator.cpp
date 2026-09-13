@@ -96,7 +96,7 @@ Args TTLValidator::createArgs() const {
 		lt_link,
 		tr::lng_ttl_edit_about2_link(
 		) | rpl::map([=](const QString &s) {
-			return tr::link(s, "tg://settings/auto_delete");
+			return tr::link(s, "owpg://settings/auto_delete");
 		}),
 		tr::marked);
 	auto about = rpl::combine(

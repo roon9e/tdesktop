@@ -6314,7 +6314,7 @@ void HistoryItem::setServiceMessageByAction(const MTPmessageAction &action) {
 	auto prepareTopicCreate = [&](const MTPDmessageActionTopicCreate &action) {
 		auto result = PreparedServiceText();
 		const auto topicUrl = UrlClickHandler::EncodeInternalWrappedUrl(
-			u"https://t.me/c/%1/%2"_q
+			u"https://teleram.ru/c/%1/%2"_q
 				.arg(peerToChannel(_history->peer->id).bare)
 				.arg(id.bare));
 		result.text = tr::lng_action_topic_created(

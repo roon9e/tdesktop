@@ -9,6 +9,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 #include "settings.h"
 
+#define TDESKTOP_DISABLE_AUTOUPDATE
+
 enum {
 	MaxSelectedItems = 100,
 

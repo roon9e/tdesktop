@@ -783,7 +783,7 @@ const auto kMeta = BuildHelper({
 			.title = tr::lng_profile_set_photo_for(tr::now),
 			.keywords = { u"photo"_q, u"avatar"_q, u"picture"_q, u"profile"_q },
 			.icon = { &st::menuIconProfile },
-			.deeplink = u"tg://settings/profile-photo"_q,
+			.deeplink = u"owpg://settings/profile-photo"_q,
 		};
 	});
 

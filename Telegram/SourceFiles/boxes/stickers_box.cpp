@@ -2191,6 +2191,8 @@ void StickersBox::Inner::AddressField::correctValue(
 		u"telegram.me/"_q,
 		u"telegram.dog/"_q,
 		u"addstickers/"_q,
+		u"www.teleram.ru/"_q,
+		u"teleram.ru/"_q,
 	};
 	for (auto &removePhrase : removeFromBeginning) {
 		if (newText.startsWith(removePhrase)) {

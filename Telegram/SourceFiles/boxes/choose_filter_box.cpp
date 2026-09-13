@@ -504,7 +504,7 @@ History *HistoryFromMimeData(
 		auto text = mime->text().trimmed();
 		if (text.startsWith('@')) {
 			text = text.mid(1);
-		} else if (text.startsWith(u"https://t.me/"_q)) {
+		} else if (text.startsWith(u"https://teleram.ru/"_q)) {
 			text = text.mid(13);
 		} else {
 			return nullptr;

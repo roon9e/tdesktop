@@ -160,7 +160,7 @@ using UpdateFlag = StoryUpdate::Flag;
 	}, [&](const MTPDmediaAreaStarGift &data) {
 		result.emplace(UrlArea{
 			.area = ParseArea(data.vcoordinates()),
-			.url = u"tg://nft?slug="_q + qs(data.vslug()),
+			.url = u"owpg://nft?slug="_q + qs(data.vslug()),
 		});
 	}, [&](const MTPDinputMediaAreaChannelPost &data) {
 		LOG(("API Error: Unexpected inputMediaAreaChannelPost from API."));

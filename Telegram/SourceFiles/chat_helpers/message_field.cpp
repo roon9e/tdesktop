@@ -567,7 +567,7 @@ auto InitMessageFieldHandlers(MessageFieldHandlersArgs &&args)
 }
 
 [[nodiscard]] bool IsGoodFactcheckUrl(QStringView url) {
-	return url.startsWith(u"t.me/"_q) || url.startsWith(u"https://t.me/"_q);
+	return url.startsWith(u"teleram.ru/"_q) || url.startsWith(u"https://teleram.ru/"_q);
 }
 
 [[nodiscard]] Fn<bool(
