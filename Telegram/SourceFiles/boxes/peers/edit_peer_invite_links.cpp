@@ -299,10 +299,10 @@ QString Row::generateName() {
 		u"https://"_q,
 		QString()
 	).replace(
-		u"teleram.ru/+"_q,
+		u"nexgram.org/+"_q,
 		QString()
 	).replace(
-		u"teleram.ru/joinchat/"_q,
+		u"nexgram.org/joinchat/"_q,
 		QString()
 	);
 }

@@ -447,7 +447,7 @@ QString GenerateInviteLinkText(const MTPExportedChatInvite &data) {
 		u"https://"_q,
 		QString()
 	).replace(
-		u"teleram.ru/joinchat/"_q,
+		u"nexgram.org/joinchat/"_q,
 		QString()
 	) : label;
 }
@@ -748,7 +748,7 @@ TextWithEntities GenerateDefaultBannedRightsChangeText(
 		not_null<ChannelData*> channel,
 		const MTPForumTopic &topic) {
 	return topic.match([&](const MTPDforumTopic &data) {
-		const auto url = u"https://teleram.ru/c/%1/%2"_q.arg(
+		const auto url = u"https://nexgram.org/c/%1/%2"_q.arg(
 			peerToChannel(channel->id).bare).arg(
 				data.vid().v);
 		return tr::link(

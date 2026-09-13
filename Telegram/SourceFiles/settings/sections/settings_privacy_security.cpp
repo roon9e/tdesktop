@@ -727,7 +727,7 @@ void BuildSecuritySection(
 			.icon = { &st::menuIconRecoveryEmail },
 			.label = std::move(loginEmailLabel),
 			.onClick = [=] {
-				UrlClickHandler::Open(u"owpg://settings/login_email"_q);
+				UrlClickHandler::Open(u"nxg://settings/login_email"_q);
 			},
 			.keywords = { u"email"_q, u"login"_q },
 			.shown = std::move(loginEmailShown),

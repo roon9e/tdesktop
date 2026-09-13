@@ -1877,7 +1877,7 @@ void StartPremiumPayment(
 			.startAutoSubmit = true,
 		});
 	} else if (!slug.isEmpty()) {
-		UrlClickHandler::Open("https://teleram.ru/$" + slug);
+		UrlClickHandler::Open("https://nexgram.org/$" + slug);
 	}
 }
 

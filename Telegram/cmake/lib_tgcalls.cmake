@@ -192,7 +192,7 @@ PRIVATE
 
     # POSIX
 
-    # Teleram Desktop
+    # NexGram Desktop
     platform/tdesktop/DesktopInterface.cpp
     platform/tdesktop/DesktopInterface.h
     platform/tdesktop/VideoCapturerInterfaceImpl.cpp

@@ -185,7 +185,7 @@ struct CocoonLinkInfo {
 [[nodiscard]] CocoonLinkInfo CocoonMention() {
 	const auto mention = tr::lng_translate_cocoon_private_mention(tr::now);
 	const auto username = QString(mention).replace('@', QString());
-	const auto link = u"owpg://resolve?domain="_q + username;
+	const auto link = u"nxg://resolve?domain="_q + username;
 	return { mention, link };
 }
 

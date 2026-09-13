@@ -128,7 +128,7 @@ void ShowSetToast(
 			lt_link,
 			tr::link(
 				tr::lng_profile_changed_photo_link(tr::now),
-				u"owpg://settings/edit_profile"_q),
+				u"nxg://settings/edit_profile"_q),
 			tr::marked)
 	);
 	auto st = std::make_shared<style::Toast>(st::historyPremiumToast);

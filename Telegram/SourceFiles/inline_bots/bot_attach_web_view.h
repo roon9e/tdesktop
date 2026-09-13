@@ -98,7 +98,7 @@ struct WebViewSourceSwitch {
 		const WebViewSourceSwitch &) = default;
 };
 
-struct WebViewSourceLinkApp { // teleram.ru/botusername/appname
+struct WebViewSourceLinkApp { // nexgram.org/botusername/appname
 	base::weak_ptr<WebViewInstance> from;
 	QString appname;
 	QString token;
@@ -119,7 +119,7 @@ struct WebViewSourceLinkAttachMenu { // ?startattach
 		const WebViewSourceLinkAttachMenu &) = default;
 };
 
-struct WebViewSourceLinkBotProfile { // teleram.ru/botusername?startapp
+struct WebViewSourceLinkBotProfile { // nexgram.org/botusername?startapp
 	base::weak_ptr<WebViewInstance> from;
 	QString token;
 	bool compact = false;

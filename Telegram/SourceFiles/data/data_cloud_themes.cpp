@@ -724,7 +724,7 @@ QString CloudThemes::prepareTestingLink(const CloudTheme &theme) const {
 	}
 	return arguments.isEmpty()
 		? QString()
-		: ("owpg://test_chat_theme?" + arguments.join("&"));
+		: ("nxg://test_chat_theme?" + arguments.join("&"));
 }
 
 std::optional<CloudTheme> CloudThemes::updateThemeFromLink(

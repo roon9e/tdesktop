@@ -87,7 +87,7 @@ using ProxyData = MTP::ProxyData;
 	auto urls = std::vector<QString>();
 	static const auto urlRegex = QRegularExpression(
 		//R"((?:https?:\/\/[^\s]+|tg:\/\/[^\s]+|(?:www\.)?(?:t\.me|telegram\.me|telegram\.dog)\/[^\s]+))",
-		R"((?:https?:\/\/[^\s]+|owpg:\/\/[^\s]+|(?:www\.)?teleram\.ru\/[^\s]+))",
+		R"((?:https?:\/\/[^\s]+|nxg:\/\/[^\s]+|(?:www\.)?nexgram\.org\/[^\s]+))",
 		QRegularExpression::CaseInsensitiveOption);
 
 	auto it = urlRegex.globalMatch(input);
@@ -130,7 +130,7 @@ using ProxyData = MTP::ProxyData;
 
 [[nodiscard]] QString ProxyDataToLocalLink(const ProxyData &proxy) {
 	const auto queryPath = ProxyDataToQueryPath(proxy);
-	return queryPath.isEmpty() ? QString() : (u"owpg://"_q + queryPath);
+	return queryPath.isEmpty() ? QString() : (u"nxg://"_q + queryPath);
 }
 
 [[nodiscard]] QString ProxyDataToPublicLink(
@@ -335,7 +335,7 @@ void ShareProxy(
 };
 
 [[nodiscard]] ProxyData ProxyDataFromLocalUrl(const QString &local) {
-	const auto protocol = u"owpg://"_q;
+	const auto protocol = u"nxg://"_q;
 	const auto proxyString = u"proxy"_q;
 	const auto socksString = u"socks"_q;
 	if (!local.startsWith(protocol + proxyString, Qt::CaseInsensitive)
@@ -388,7 +388,7 @@ void AddProxyFromClipboard(
 		std::shared_ptr<Ui::Show> show) {
 	const auto proxyString = u"proxy"_q;
 	const auto socksString = u"socks"_q;
-	const auto protocol = u"owpg://"_q;
+	const auto protocol = u"nxg://"_q;
 
 	const auto maybeUrls = ExtractLinkCandidates(
 		QGuiApplication::clipboard()->text());

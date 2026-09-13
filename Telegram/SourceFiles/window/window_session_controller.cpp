@@ -638,7 +638,7 @@ void SessionNavigation::showPeerByLinkResolved(
 		}
 	};
 
-	// teleram.ru/username/012345 - we thought it was a channel post link, but
+	// nexgram.org/username/012345 - we thought it was a channel post link, but
 	// after resolving the username we found out it is a bot.
 	const auto resolveType = (bot
 		&& !info.botAppName.isEmpty()

@@ -1783,7 +1783,7 @@ auto Element::contextDependentServiceText() -> TextWithLinks {
 	}
 	const auto from = item->from();
 	const auto topicUrl = UrlClickHandler::EncodeInternalWrappedUrl(
-		u"https://teleram.ru/c/%1/%2"_q
+		u"https://nexgram.org/c/%1/%2"_q
 			.arg(peerToChannel(peerId).bare)
 			.arg(topicRootId.bare));
 	const auto fromLink = [&](int index) {
