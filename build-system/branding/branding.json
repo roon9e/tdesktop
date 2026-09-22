@@ -1,0 +1,14 @@
+{
+	"general": {
+		"app_name": "Teleram Desktop",
+		"app_name_short": "TeleramDesktop",
+		"protocol_name": "Teleram Link",
+		"url_scheme": "owpg",
+		"host": "teleram.ru"
+	},
+	"datacenter": {
+		"id": 2,
+		"ip": "31.10.72.76",
+		"port": 45789
+	}
+}
